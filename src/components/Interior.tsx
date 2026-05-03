@@ -12,9 +12,8 @@ export default function Interior() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-24">
           <span className="text-primary tracking-[0.4em] uppercase text-xs font-medium mb-6 block">Our Space</span>
-          <h2 className="luxury-text text-4xl md:text-5xl font-light text-dark leading-tight mb-8">
-            머무시는 동안의 <span className="text-primary italic">편안함</span>까지<br />
-            세심하게 설계하였습니다
+          <h2 className="luxury-text text-xl md:text-5xl font-light text-dark leading-tight mb-8">
+            머무시는 동안의 <span className="text-primary italic">편안함</span>까지 세심하게 설계하였습니다
           </h2>
           <p className="text-dark/50 font-light max-w-2xl mx-auto">
             순수피부과는 고객님의 프라이버시를 존중하며, 최상의 컨디션에서 <br />

@@ -35,7 +35,7 @@ export default function Programs() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 space-y-6 md:space-y-0">
           <div>
             <span className="text-primary tracking-[0.4em] uppercase text-xs font-medium mb-4 block">Our Solutions</span>
-            <h2 className="luxury-text text-4xl md:text-5xl font-light text-dark">감각적인 전문성의 결정체</h2>
+            <h2 className="luxury-text text-xl md:text-5xl font-light text-dark">감각적인 전문성의 결정체</h2>
           </div>
           <p className="text-dark/50 font-light max-w-sm">
             개인의 피부 상태와 라이프스타일에 맞춘 순수피부과만의 <br />

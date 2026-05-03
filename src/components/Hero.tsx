@@ -56,9 +56,9 @@ export default function Hero() {
           <span className="luxury-text text-primary italic text-xl md:text-2xl mb-6 block tracking-wide">
             Pure Beauty, Pure Heart
           </span>
-          <h1 className="luxury-text text-4xl md:text-6xl font-light leading-[1.2] text-dark mb-10 tracking-tight">
+          <h1 className="luxury-text text-xl md:text-6xl font-light leading-[1.2] text-dark mb-10 tracking-tight">
             고결한 아름다움의 시작, <br />
-            <span className="text-primary italic">순수피부과</span>
+            <span className="text-primary italic text-2xl md:text-6xl block mt-2 md:inline md:mt-0">순수피부과</span>
           </h1>
           <p className="text-dark/70 text-lg md:text-xl font-light leading-relaxed mb-32 max-w-lg">
             단순한 시술을 넘어 당신의 본연의 아름다움을 찾아드리는<br />

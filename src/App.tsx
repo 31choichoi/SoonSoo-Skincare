@@ -10,6 +10,7 @@ import Programs from './components/Programs';
 import Interior from './components/Interior';
 import Location from './components/Location';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Location />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

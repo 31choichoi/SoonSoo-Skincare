@@ -30,9 +30,8 @@ export default function Philosophy() {
             <span className="text-primary tracking-[0.4em] uppercase text-xs font-medium mb-6 block font-sans">
               Our Identity
             </span>
-            <h2 className="luxury-text text-4xl md:text-5xl font-light text-dark leading-tight mb-10">
-              가장 순수한 아름다움은<br />
-              <span className="text-primary italic">본연의 상태</span>에서 시작됩니다
+            <h2 className="luxury-text text-xl md:text-5xl font-light text-dark leading-tight mb-10">
+              가장 순수한 아름다움은 <span className="text-primary italic">본연의 상태</span>에서 시작됩니다
             </h2>
             <div className="space-y-8 text-dark/70 font-light leading-relaxed">
               <p>
