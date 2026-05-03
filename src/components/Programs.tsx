@@ -18,7 +18,7 @@ const programs = [
     title: 'Body Contour',
     subtitle: '바디 컨투어링',
     desc: '체형 고민에 맞춘 맞춤형 지방 분해 및 탄력 개선 프로그램',
-    img: 'https://images.unsplash.com/photo-1519824141121-99745c503f0f?auto=format&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1616391182219-e080b4d1043a?auto=format&fit=crop&q=80',
   },
   {
     title: 'Special Care',

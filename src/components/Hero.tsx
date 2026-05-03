@@ -38,12 +38,12 @@ export default function Hero() {
             <img 
               src={slides[currentSlide].image} 
               alt={slides[currentSlide].alt} 
-              className="w-full h-full object-cover grayscale-[10%]"
+              className="w-full h-full object-cover brightness-[1.02] contrast-[1.02]"
               referrerPolicy="no-referrer"
             />
           </motion.div>
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-r from-base/70 via-base/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-base/95 via-base/20 to-transparent via-25%" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
@@ -51,21 +51,21 @@ export default function Hero() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: 'easeOut' }}
-          className="max-w-3xl"
+          className="max-w-3xl pt-32 md:pt-48"
         >
-          <span className="luxury-text text-primary italic text-xl md:text-2xl mb-4 block tracking-wide">
+          <span className="luxury-text text-primary italic text-xl md:text-2xl mb-6 block tracking-wide">
             Pure Beauty, Pure Heart
           </span>
-          <h1 className="luxury-text text-4xl md:text-6xl font-light leading-[1.2] text-dark mb-8 tracking-tight">
+          <h1 className="luxury-text text-4xl md:text-6xl font-light leading-[1.2] text-dark mb-10 tracking-tight">
             고결한 아름다움의 시작, <br />
             <span className="text-primary italic">순수피부과</span>
           </h1>
-          <p className="text-dark/60 text-lg md:text-xl font-light leading-relaxed mb-12 max-w-lg">
+          <p className="text-dark/70 text-lg md:text-xl font-light leading-relaxed mb-32 max-w-lg">
             단순한 시술을 넘어 당신의 본연의 아름다움을 찾아드리는<br />
             프리미엄 메디컬 에스테틱 솔루션을 만나보세요.
           </p>
           
-          <div className="flex space-x-6">
+          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 pt-12">
             <button className="px-10 py-4 bg-primary text-white text-sm tracking-widest hover:bg-dark transition-all duration-500 shadow-xl">
               상담 예약하기
             </button>
