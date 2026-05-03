@@ -14,10 +14,12 @@ const slides = [
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isInitial, setIsInitial] = useState(true);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
+      setIsInitial(false);
     }, 5000);
     return () => clearInterval(timer);
   }, []);
@@ -32,7 +34,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 1.1 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1.5, ease: 'easeInOut' }}
+            transition={{ duration: 2.5, delay: isInitial ? 2.0 : 0, ease: 'easeOut' }}
             className="absolute inset-0"
           >
             <img 
