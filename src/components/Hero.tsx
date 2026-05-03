@@ -61,8 +61,10 @@ export default function Hero() {
             <span className="text-primary italic text-2xl md:text-6xl block mt-2 md:inline md:mt-0">순수피부과</span>
           </h1>
           <p className="text-dark/70 text-lg md:text-xl font-light leading-relaxed mb-32 max-w-lg">
-            단순한 시술을 넘어 당신의 본연의 아름다움을 찾아드리는<br />
-            프리미엄 메디컬 에스테틱 솔루션을 만나보세요.
+            단순한 시술을 넘어 <br className="md:hidden" />
+            당신의 본연의 아름다움을 찾아드리는<br />
+            프리미엄 메디컬 에스테틱 <br className="md:hidden" />
+            솔루션을 만나보세요.
           </p>
           
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 pt-12">
